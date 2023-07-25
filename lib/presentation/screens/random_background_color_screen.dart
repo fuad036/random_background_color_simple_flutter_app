@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:random_background_color/presentation/blocs/random_color_bloc.dart';
 import 'package:random_background_color/random_color_generator/random_color_from_argb.dart';
+import 'package:random_background_color/utils/utils.dart';
 
 
 class RandomBackgroundColorScreen extends StatefulWidget {
@@ -27,10 +28,13 @@ class _RandomBackgroundColorScreenState extends State<RandomBackgroundColorScree
       },
       child: Scaffold(
         backgroundColor: bgColor,
-        body: const Center(
+        body:  Center(
           child: Text(
             'Hello There',
             textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Utils.textColorForBackground(bgColor),
+            ),
           ),
         ),
       ),
