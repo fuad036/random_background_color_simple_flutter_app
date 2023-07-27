@@ -1,16 +1,9 @@
 # random_background_color
 
-A new Flutter project.
+This is a simple flutter app where we display the text "Hello there" in the middle of the screen and after tapping anywhere on the screen, the background color gets changed to a randomly generated color.
 
-## Getting Started
+## Sequence Diagram
 
-This project is a starting point for a Flutter application.
+The following sequence diagram describes how this application works. 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/fuad036/random_background_color_simple_flutter_app/assets/44244010/57522e3c-394b-4894-b4be-397da54875ad)
